@@ -871,7 +871,7 @@ sub init_query {
             }
         } ## end foreach my $p (@p)
         while ( my ( $key, $val ) = each %params ) {
-            if ( ref $val ) {
+            if ( 'ARRAY' eq ref($val) ) {
                 $q->param( $key, @{ $params{$key} } );
             }
             else {
