@@ -1,20 +1,29 @@
 2.6.7
 -----
-
+ing.
 Those using Smarty with security enabled: a hole was found that allowed PHP code to be executed from within a template file. This has been fixed and you are engouraged to upgrade immediately. Note that this hole does NOT affect the security of your web server or PHP applications, only the ability for someone editing a template to execute PHP code. Other changes in this release can be found in the NEWS file.
-
+esp.
+Los que utilizan Smarty con la seguridad habilitada : un agujero se encontró que permitió código PHP que se ejecuta desde dentro de un archivo de plantilla. Esto se ha corregido y se le engouraged actualizar inmediatamente. Tenga en cuenta que este agujero no afecta a la seguridad de su servidor web o de aplicaciones PHP , sólo la capacidad para alguien edita una plantilla para ejecutar código PHP. Otros cambios en esta versión se pueden encontrar en el archivo NEWS .
 2.5.0
 -----
 
 Very minor adjustments since RC2, see the NEWS file for details.
 
+TVery ajustes menores desde RC2, consulte el archivo NEWS para más detalles.
+
 2.5.0-RC2
 ---------
-
+ing.
 Many fixes since the RC1 release. This one is as close to production quality as
 they come, so this will be the last release before 2.5.0. The SGML documentation
 files have also been removed from the tarball. If you want them, get them from
 the CVS repository.
+
+esp.
+Muchas correcciones desde la versión RC1 . Éste es lo más cercano a la calidad de la producción,
+vienen, por lo que esta será la última versión antes de 2.5.0 . La documentación SGML
+archivos también se han eliminado de la tar . Si los quieres , obtenerlos de
+el repositorio CVS.
 
 2.5.0-RC1
 ---------
